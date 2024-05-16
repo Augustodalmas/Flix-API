@@ -2,7 +2,7 @@
 Este repositório contém uma API de gerenciamento de filmes desenvolvida com Django. A API permite realizar operações CRUD (Create, Read, Update, Delete) para diversas entidades relacionadas a filmes, incluindo gêneros, reviews, atores e os próprios filmes.<br>
 
 Funcionalidades:<br>
-'''Gêneros<br>'''
+```Gêneros<br>```
 Create: Adicione novos gêneros de filmes.<br>
 List: Consulte a lista completa de gêneros cadastrados.<br>
 Detail: Visualize informações detalhadas sobre um gênero específico.<br>
