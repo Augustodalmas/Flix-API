@@ -1,27 +1,65 @@
-# Django Genres API
-Este projeto consiste em uma API simples para gerenciar gêneros de filmes utilizando Django, um framework web em Python. A API permite a criação, listagem, atualização e remoção de gêneros de filmes.
+# API de Filmes com Django
+Este repositório contém uma API de gerenciamento de filmes desenvolvida com Django. A API permite realizar operações CRUD (Create, Read, Update, Delete) para diversas entidades relacionadas a filmes, incluindo gêneros, reviews, atores e os próprios filmes.
 
-Funcionalidades:
-Listagem de Gêneros: Permite visualizar todos os gêneros de filmes existentes.
-Criação de Gênero: Possibilita adicionar novos gêneros à base de dados.
-Detalhes do Gênero: Fornece informações detalhadas sobre um gênero específico.
-Atualização de Gênero: Permite modificar o nome de um gênero existente.
-Remoção de Gênero: Permite excluir um gênero da base de dados.
+Funcionalidades
+Gêneros
+Criar: Adicione novos gêneros de filmes.
+Listar: Consulte a lista completa de gêneros cadastrados.
+Detalhar: Visualize informações detalhadas sobre um gênero específico.
+Atualizar: Edite as informações de um gênero existente.
+Excluir: Remova um gênero do sistema.
+Reviews
+Criar: Adicione novas reviews para filmes.
+Listar: Consulte todas as reviews cadastradas.
+Detalhar: Visualize informações detalhadas sobre uma review específica.
+Atualizar: Edite as informações de uma review existente.
+Excluir: Remova uma review do sistema.
+Atores
+Criar: Adicione novos atores ao banco de dados.
+Listar: Consulte a lista completa de atores cadastrados.
+Detalhar: Visualize informações detalhadas sobre um ator específico.
+Atualizar: Edite as informações de um ator existente.
+Excluir: Remova um ator do sistema.
+Filmes
+Criar: Adicione novos filmes ao banco de dados.
+Listar: Consulte a lista completa de filmes cadastrados.
+Detalhar: Visualize informações detalhadas sobre um filme específico.
+Atualizar: Edite as informações de um filme existente.
+Excluir: Remova um filme do sistema.
+Tecnologias Utilizadas
+Django: Framework web utilizado para construir a API.
+Django REST Framework: Biblioteca poderosa e flexível para construir APIs Web em Django.
+SQLite: Banco de dados utilizado para armazenamento de dados.
+Como Executar o Projeto
+Clone o repositório:
+bash
+Copiar código
+git clone https://github.com/seu-usuario/seu-repositorio.git
+Navegue até o diretório do projeto:
+bash
+Copiar código
+cd seu-repositorio
+Crie e ative um ambiente virtual:
+bash
+Copiar código
+python -m venv venv
+source venv/bin/activate  # No Windows use `venv\Scripts\activate`
+Instale as dependências:
+bash
+Copiar código
+pip install -r requirements.txt
+Execute as migrações:
+bash
+Copiar código
+python manage.py migrate
+Inicie o servidor de desenvolvimento:
+bash
+Copiar código
+python manage.py runserver
+Endpoints
+A API possui os seguintes endpoints principais:
 
-Tecnologias Utilizadas:
-Django: Framework web em Python utilizado para desenvolver a API.
-Python: Linguagem de programação utilizada para escrever a lógica da aplicação.
-JSON: Formato de dados utilizado para comunicação entre o cliente e o servidor.
-
-Estrutura do Projeto:
-O projeto é estruturado em torno de duas principais views:
-
-genres_create_list: Responsável por lidar com requisições relacionadas à listagem e criação de gêneros.
-genre_detail: Responsável por lidar com requisições relacionadas à obtenção, atualização e remoção de detalhes de um gênero específico.
-Além disso, o projeto utiliza a funcionalidade de serialização do Django para converter objetos de modelo em representações JSON e vice-versa.
-
-Como Utilizar:
-Clone este repositório em sua máquina local.
-Certifique-se de ter o Python e Django instalados em seu ambiente de desenvolvimento.
-Execute o servidor Django.
-Utilize uma ferramenta como URL, Postman ou Insomnia para realizar requisições HTTP para a API.
+/api/genres/ - Endpoints para CRUD de gêneros.
+/api/reviews/ - Endpoints para CRUD de reviews.
+/api/actors/ - Endpoints para CRUD de atores.
+/api/movies/ - Endpoints para CRUD de filmes.
