@@ -3,32 +3,32 @@ Este repositório contém uma API de gerenciamento de filmes desenvolvida com Dj
 
 Funcionalidades:<br>
 Gêneros<br>
-Criar: Adicione novos gêneros de filmes.<br>
-Listar: Consulte a lista completa de gêneros cadastrados.<br>
-Detalhar: Visualize informações detalhadas sobre um gênero específico.<br>
-Atualizar: Edite as informações de um gênero existente.<br>
-Excluir: Remova um gênero do sistema.<br>
+Create: Adicione novos gêneros de filmes.<br>
+List: Consulte a lista completa de gêneros cadastrados.<br>
+Detail: Visualize informações detalhadas sobre um gênero específico.<br>
+Update: Edite as informações de um gênero existente.<br>
+Delete: Remova um gênero do sistema.<br>
 
 Reviews<br>
-Criar: Adicione novas reviews para filmes.<br>
-Listar: Consulte todas as reviews cadastradas.<br>
-Detalhar: Visualize informações detalhadas sobre uma review específica.<br>
-Atualizar: Edite as informações de uma review existente.<br>
-Excluir: Remova uma review do sistema.<br>
+Create: Adicione novas reviews para filmes.<br>
+List: Consulte todas as reviews cadastradas.<br>
+Detail: Visualize informações detalhadas sobre uma review específica.<br>
+Update: Edite as informações de uma review existente.<br>
+Delete: Remova uma review do sistema.<br>
 
 Atores<br>
-Criar: Adicione novos atores ao banco de dados.<br>
-Listar: Consulte a lista completa de atores cadastrados.<br>
-Detalhar: Visualize informações detalhadas sobre um ator específico.<br>
-Atualizar: Edite as informações de um ator existente.<br>
-Excluir: Remova um ator do sistema.<br>
+Create: Adicione novos atores ao banco de dados.<br>
+List: Consulte a lista completa de atores cadastrados.<br>
+Detail: Visualize informações detalhadas sobre um ator específico.<br>
+Update: Edite as informações de um ator existente.<br>
+Delete: Remova um ator do sistema.<br>
 
 Filmes<br>
-Criar: Adicione novos filmes ao banco de dados.<br>
-Listar: Consulte a lista completa de filmes cadastrados.<br>
-Detalhar: Visualize informações detalhadas sobre um filme específico.<br>
-Atualizar: Edite as informações de um filme existente.<br>
-Excluir: Remova um filme do sistema.<br>
+Create: Adicione novos filmes ao banco de dados.<br>
+List: Consulte a lista completa de filmes cadastrados.<br>
+Detail: Visualize informações detalhadas sobre um filme específico.<br>
+Update: Edite as informações de um filme existente.<br>
+Delete: Remova um filme do sistema.<br>
 
 Tecnologias Utilizadas:<br>
 Django: Framework web utilizado para construir a API.<br>
