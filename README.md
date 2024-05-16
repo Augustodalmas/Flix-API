@@ -3,7 +3,7 @@ Este repositório contém uma API de gerenciamento de filmes desenvolvida com Dj
 
 Funcionalidades:
 Gêneros
-Criar: Adicione novos gêneros de filmes.
+Criar: Adicione novos gêneros de filmes.<br>
 Listar: Consulte a lista completa de gêneros cadastrados.
 Detalhar: Visualize informações detalhadas sobre um gênero específico.
 Atualizar: Edite as informações de um gênero existente.
