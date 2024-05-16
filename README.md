@@ -1,44 +1,44 @@
 # API de Filmes com Django
-Este repositório contém uma API de gerenciamento de filmes desenvolvida com Django. A API permite realizar operações CRUD (Create, Read, Update, Delete) para diversas entidades relacionadas a filmes, incluindo gêneros, reviews, atores e os próprios filmes.
+Este repositório contém uma API de gerenciamento de filmes desenvolvida com Django. A API permite realizar operações CRUD (Create, Read, Update, Delete) para diversas entidades relacionadas a filmes, incluindo gêneros, reviews, atores e os próprios filmes.<br>
 
-Funcionalidades:
-Gêneros
+Funcionalidades:<br>
+Gêneros<br>
 Criar: Adicione novos gêneros de filmes.<br>
-Listar: Consulte a lista completa de gêneros cadastrados.
-Detalhar: Visualize informações detalhadas sobre um gênero específico.
-Atualizar: Edite as informações de um gênero existente.
-Excluir: Remova um gênero do sistema.
+Listar: Consulte a lista completa de gêneros cadastrados.<br>
+Detalhar: Visualize informações detalhadas sobre um gênero específico.<br>
+Atualizar: Edite as informações de um gênero existente.<br>
+Excluir: Remova um gênero do sistema.<br>
 
-Reviews
-Criar: Adicione novas reviews para filmes.
-Listar: Consulte todas as reviews cadastradas.
-Detalhar: Visualize informações detalhadas sobre uma review específica.
-Atualizar: Edite as informações de uma review existente.
-Excluir: Remova uma review do sistema.
+Reviews<br>
+Criar: Adicione novas reviews para filmes.<br>
+Listar: Consulte todas as reviews cadastradas.<br>
+Detalhar: Visualize informações detalhadas sobre uma review específica.<br>
+Atualizar: Edite as informações de uma review existente.<br>
+Excluir: Remova uma review do sistema.<br>
 
-Atores
-Criar: Adicione novos atores ao banco de dados.
-Listar: Consulte a lista completa de atores cadastrados.
-Detalhar: Visualize informações detalhadas sobre um ator específico.
-Atualizar: Edite as informações de um ator existente.
-Excluir: Remova um ator do sistema.
+Atores<br>
+Criar: Adicione novos atores ao banco de dados.<br>
+Listar: Consulte a lista completa de atores cadastrados.<br>
+Detalhar: Visualize informações detalhadas sobre um ator específico.<br>
+Atualizar: Edite as informações de um ator existente.<br>
+Excluir: Remova um ator do sistema.<br>
 
-Filmes
-Criar: Adicione novos filmes ao banco de dados.
-Listar: Consulte a lista completa de filmes cadastrados.
-Detalhar: Visualize informações detalhadas sobre um filme específico.
-Atualizar: Edite as informações de um filme existente.
-Excluir: Remova um filme do sistema.
+Filmes<br>
+Criar: Adicione novos filmes ao banco de dados.<br>
+Listar: Consulte a lista completa de filmes cadastrados.<br>
+Detalhar: Visualize informações detalhadas sobre um filme específico.<br>
+Atualizar: Edite as informações de um filme existente.<br>
+Excluir: Remova um filme do sistema.<br>
 
-Tecnologias Utilizadas:
-Django: Framework web utilizado para construir a API.
-Django REST Framework: Biblioteca poderosa e flexível para construir APIs Web em Django.
-SQLite: Banco de dados utilizado para armazenamento de dados.
+Tecnologias Utilizadas:<br>
+Django: Framework web utilizado para construir a API.<br>
+Django REST Framework: Biblioteca poderosa e flexível para construir APIs Web em Django.<br>
+SQLite: Banco de dados utilizado para armazenamento de dados.<br>
 
-Endpoints
-A API possui os seguintes endpoints principais:
+Endpoints<br>
+A API possui os seguintes endpoints principais:<br>
 
-/api/genres/ - Endpoints para CRUD de gêneros.
-/api/reviews/ - Endpoints para CRUD de reviews.
-/api/actors/ - Endpoints para CRUD de atores.
-/api/movies/ - Endpoints para CRUD de filmes.
+/api/genres/ - Endpoints para CRUD de gêneros.<br>
+/api/reviews/ - Endpoints para CRUD de reviews.<br>
+/api/actors/ - Endpoints para CRUD de atores.<br>
+/api/movies/ - Endpoints para CRUD de filmes.<br>
