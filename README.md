@@ -37,14 +37,14 @@ SQLite: Banco de dados utilizado para armazenamento de dados.<br>
 
 🚀 Como Executar o Projeto
 Clone o repositório:<br>
-```git clone https://github.com/seu-usuario/seu-repositorio.git```
+```git clone https://github.com/Augustodalmas/Flix-API.git```
 
 Navegue até o diretório do projeto:<br>
 ```cd seu-repositorio```
 
 Crie e ative um ambiente virtual:<br>
 ```python -m venv venv```
-```source venv/bin/activate```  # No Windows use `venv\Scripts\activate`
+```source venv/bin/activate```<br> # No Windows use `venv\Scripts\activate`
 
 Instale as dependências:<br>
 ```pip install -r requirements.txt```
