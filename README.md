@@ -38,7 +38,7 @@ SQLite: Banco de dados utilizado para armazenamento de dados.<br>
 Endpoints<br>
 A API possui os seguintes endpoints principais:<br>
 
-/api/genres/ - Endpoints para CRUD de gêneros.<br>
-/api/reviews/ - Endpoints para CRUD de reviews.<br>
-/api/actors/ - Endpoints para CRUD de atores.<br>
-/api/movies/ - Endpoints para CRUD de filmes.<br>
+genres/ - Endpoints para CRUD de gêneros.<br>
+reviews/ - Endpoints para CRUD de reviews.<br>
+actors/ - Endpoints para CRUD de atores.<br>
+movies/ - Endpoints para CRUD de filmes.<br>
