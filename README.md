@@ -43,7 +43,7 @@ Navegue até o diretório do projeto:<br>
 ```cd seu-repositorio```
 
 Crie e ative um ambiente virtual:<br>
-```python -m venv venv```
+```python -m venv venv```<br>
 ```source venv/bin/activate```<br> # No Windows use `venv\Scripts\activate`
 
 Instale as dependências:<br>
