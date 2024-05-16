@@ -36,23 +36,23 @@ Django REST Framework: Biblioteca poderosa e flexível para construir APIs Web e
 SQLite: Banco de dados utilizado para armazenamento de dados.<br>
 
 🚀 Como Executar o Projeto
-Clone o repositório:
+Clone o repositório:<br>
 ```git clone https://github.com/seu-usuario/seu-repositorio.git```
 
-Navegue até o diretório do projeto:
+Navegue até o diretório do projeto:<br>
 ```cd seu-repositorio```
 
-Crie e ative um ambiente virtual:
+Crie e ative um ambiente virtual:<br>
 ```python -m venv venv```
 ```source venv/bin/activate```  # No Windows use `venv\Scripts\activate`
 
-Instale as dependências:
+Instale as dependências:<br>
 ```pip install -r requirements.txt```
 
-Execute as migrações:
+Execute as migrações:<br>
 ```python manage.py migrate```
 
-Inicie o servidor de desenvolvimento:
+Inicie o servidor de desenvolvimento:<br>
 ```python manage.py runserver```
 
 🔗Endpoints<br>
