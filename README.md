@@ -1,69 +1,42 @@
-**🎬API de Filmes com Django🎥**<br><br>
-Este repositório contém uma API de gerenciamento de filmes desenvolvida com Django.<br>
-A API permite realizar operações CRUD (Create, Read, Update, Delete) para diversas entidades relacionadas a filmes, incluindo gêneros, reviews, atores e os próprios filmes.<br>
+# 🎥 Django Genres API 🎬
+Descrição 📖<br>
+Bem-vindo à Django Genres API! Este projeto oferece uma API RESTful simples e eficiente para gerenciar gêneros de filmes, construída com o poderoso framework Django. Com esta API, você pode criar, listar, atualizar e deletar gêneros filmes com facilidade.<br><br>
 
-📚Funcionalidades:<br>
-🎭Gêneros<br>
-Create: Adicione novos gêneros de filmes.<br>
-List: Consulte a lista completa de gêneros cadastrados.<br>
-Detail: Visualize informações detalhadas sobre um gênero específico.<br>
-Update: Edite as informações de um gênero existente.<br>
-Delete: Remova um gênero do sistema.<br>
+Funcionalidades ✨<br>
+📜 Listagem de Gêneros: Obtenha uma lista completa de todos os gêneros de filmes disponíveis.<br>
+➕ Criação de Gênero: Adicione novos gêneros de filmes à sua coleção.<br>
+🔍 Detalhes do Gênero: Visualize informações detalhadas de um gênero específico.<br>
+✏️ Atualização de Gênero: Atualize o nome de um gênero existente.<br>
+🗑️ Remoção de Gênero: Delete um gênero da base de dados.<br><br>
 
-📝Reviews<br>
-Create: Adicione novas reviews para filmes.<br>
-List: Consulte todas as reviews cadastradas.<br>
-Detail: Visualize informações detalhadas sobre uma review específica.<br>
-Update: Edite as informações de uma review existente.<br>
-Delete: Remova uma review do sistema.<br>
+Tecnologias Utilizadas 🛠️<br>
+Django: Framework web em Python que oferece uma estrutura robusta e escalável.<br>
+Python: Linguagem de programação utilizada para desenvolver a lógica da aplicação.<br>
+JSON: Formato de intercâmbio de dados leve e fácil de usar para comunicação cliente-servidor.<br><br>
 
-🎭Atores<br>
-Create: Adicione novos atores ao banco de dados.<br>
-List: Consulte a lista completa de atores cadastrados.<br>
-Detail: Visualize informações detalhadas sobre um ator específico.<br>
-Update: Edite as informações de um ator existente.<br>
-Delete: Remova um ator do sistema.<br>
+Estrutura do Projeto 🏗️<br>
+O projeto possui duas principais views:<br>
 
-🎬Filmes<br>
-Create: Adicione novos filmes ao banco de dados.<br>
-List: Consulte a lista completa de filmes cadastrados.<br>
-Detail: Visualize informações detalhadas sobre um filme específico.<br>
-Update: Edite as informações de um filme existente.<br>
-Delete: Remova um filme do sistema.<br>
+genres_create_list:<br>
 
-🛠Tecnologias Utilizadas:<br>
-Django: Framework web utilizado para construir a API.<br>
-Django REST Framework: Biblioteca poderosa e flexível para construir APIs Web em Django.<br>
-SQLite: Banco de dados utilizado para armazenamento de dados.<br>
+GET: Retorna uma lista de todos os gêneros.<br>
+POST: Cria um novo gênero com base nos dados fornecidos.<br><br>
 
-🚀 Como Executar o Projeto
-Clone o repositório:<br>
-```git clone https://github.com/Augustodalmas/Flix-API.git```
+genre_detail:<br>
+GET: Retorna os detalhes de um gênero específico.<br>
+PUT: Atualiza o nome de um gênero específico.<br>
+DELETE: Remove um gênero da base de dados.<br><br>
 
-Navegue até o diretório do projeto:<br>
-```cd seu-repositorio```
+Como Utilizar 🚀<br>
+Clone o Repositório:<br>
+```git clone https://github.com/seu-usuario/django-genres-api.git```
 
-Crie e ative um ambiente virtual:<br>
-```python -m venv venv```<br><br>
-```source venv/bin/activate```<br> # No Windows<br> `venv\Scripts\activate`
-
-Instale as dependências:<br>
+Instale as Dependências:<br>
+Certifique-se de ter o Python e Django instalados. Em seguida, instale as dependências:<br>
 ```pip install -r requirements.txt```
 
-Execute as migrações:<br>
+Execute as Migrações:<br>
 ```python manage.py migrate```
 
-Inicie o servidor de desenvolvimento:<br>
+Inicie o Servidor Django:<br>
 ```python manage.py runserver```
-
-🔗Endpoints<br>
-A API possui os seguintes endpoints principais:<br>
-
-api/v1/genres/ - Endpoints para Create e list de genres.<br>
-api/v1/genres/id/ - Endpoints para Update, Detail e Delete de genres.<br>
-api/v1/reviews/ - Endpoints para Create e list de reviews.<br>
-api/v1/reviews/id/ - Endpoints para Update, Detail e Delete de reviews.<br>
-api/v1/actors/ - Endpoints para Create e list de atores.<br>
-api/v1/actors/id/ - Endpoints para Update, Detail e Delete de atores.<br>
-api/v1/movies/ - Endpoints para Create e list de filmes.<br>
-api/v1/movies/id/ - Endpoints para Update, Detail e Delete de filmes.<br>
