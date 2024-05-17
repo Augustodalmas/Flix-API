@@ -1,72 +1,69 @@
-# 🎬API de Filmes com Django🎥
+**🎬API de Filmes com Django🎥**<br><br>
+Este repositório contém uma API de gerenciamento de filmes desenvolvida com Django.<br>
+A API permite realizar operações CRUD (Create, Read, Update, Delete) para diversas entidades relacionadas a filmes, incluindo gêneros, reviews, atores e os próprios filmes.<br>
 
-Este repositório contém uma API de gerenciamento de filmes desenvolvida com Django.
-A API permite realizar operações CRUD (Create, Read, Update, Delete) para diversas entidades relacionadas a filmes, incluindo gêneros, reviews, atores e os próprios filmes.
+📚Funcionalidades:<br>
+🎭Gêneros<br>
+Create: Adicione novos gêneros de filmes.<br>
+List: Consulte a lista completa de gêneros cadastrados.<br>
+Detail: Visualize informações detalhadas sobre um gênero específico.<br>
+Update: Edite as informações de um gênero existente.<br>
+Delete: Remova um gênero do sistema.<br>
 
-📚Funcionalidades:
-🎭Gêneros
-Create: Adicione novos gêneros de filmes.
-List: Consulte a lista completa de gêneros cadastrados.
-Detail: Visualize informações detalhadas sobre um gênero específico.
-Update: Edite as informações de um gênero existente.
-Delete: Remova um gênero do sistema.
+📝Reviews<br>
+Create: Adicione novas reviews para filmes.<br>
+List: Consulte todas as reviews cadastradas.<br>
+Detail: Visualize informações detalhadas sobre uma review específica.<br>
+Update: Edite as informações de uma review existente.<br>
+Delete: Remova uma review do sistema.<br>
 
-📝Reviews
-Create: Adicione novas reviews para filmes.
-List: Consulte todas as reviews cadastradas.
-Detail: Visualize informações detalhadas sobre uma review específica.
-Update: Edite as informações de uma review existente.
-Delete: Remova uma review do sistema.
+🎭Atores<br>
+Create: Adicione novos atores ao banco de dados.<br>
+List: Consulte a lista completa de atores cadastrados.<br>
+Detail: Visualize informações detalhadas sobre um ator específico.<br>
+Update: Edite as informações de um ator existente.<br>
+Delete: Remova um ator do sistema.<br>
 
-🎭Atores
-Create: Adicione novos atores ao banco de dados.
-List: Consulte a lista completa de atores cadastrados.
-Detail: Visualize informações detalhadas sobre um ator específico.
-Update: Edite as informações de um ator existente.
-Delete: Remova um ator do sistema.
+🎬Filmes<br>
+Create: Adicione novos filmes ao banco de dados.<br>
+List: Consulte a lista completa de filmes cadastrados.<br>
+Detail: Visualize informações detalhadas sobre um filme específico.<br>
+Update: Edite as informações de um filme existente.<br>
+Delete: Remova um filme do sistema.<br>
 
-🎬Filmes
-Create: Adicione novos filmes ao banco de dados.
-List: Consulte a lista completa de filmes cadastrados.
-Detail: Visualize informações detalhadas sobre um filme específico.
-Update: Edite as informações de um filme existente.
-Delete: Remova um filme do sistema.
+🛠Tecnologias Utilizadas:<br>
+Django: Framework web utilizado para construir a API.<br>
+Django REST Framework: Biblioteca poderosa e flexível para construir APIs Web em Django.<br>
+SQLite: Banco de dados utilizado para armazenamento de dados.<br>
 
-🛠Tecnologias Utilizadas:
-Django: Framework web utilizado para construir a API.
-Django REST Framework: Biblioteca poderosa e flexível para construir APIs Web em Django.
-SQLite: Banco de dados utilizado para armazenamento de dados.
-
-🚀 Como Executar o Projeto Clone o repositório:
-git clone https://github.com/Augustodalmas/Flix-API.git
+🚀 Como Executar o Projeto
+Clone o repositório:<br>
+```git clone https://github.com/Augustodalmas/Flix-API.git```
 
 Navegue até o diretório do projeto:<br>
-cd seu-repositorio
+```cd seu-repositorio```
 
-Crie e ative um ambiente virtual:
-python -m venv venv
+Crie e ative um ambiente virtual:<br>
+```python -m venv venv```<br><br>
+```source venv/bin/activate```<br> # No Windows<br> `venv\Scripts\activate`
 
-source venv/bin/activate
-No Windows
-venv\Scripts\activate
+Instale as dependências:<br>
+```pip install -r requirements.txt```
 
-Instale as dependências:
-pip install -r requirements.txt
+Execute as migrações:<br>
+```python manage.py migrate```
 
-Execute as migrações:
-python manage.py migrate
+Inicie o servidor de desenvolvimento:<br>
+```python manage.py runserver```
 
-Inicie o servidor de desenvolvimento:
-python manage.py runserver
+🔗Endpoints<br>
+A API possui os seguintes endpoints principais:<br>
 
-🔗Endpoints
-A API possui os seguintes endpoints principais:
-
-api/v1/genres/ - Endpoints para Create e list de genres.
-api/v1/genres/id/ - Endpoints para Update, Detail e Delete de genres.
-api/v1/reviews/ - Endpoints para Create e list de reviews.
-api/v1/reviews/id/ - Endpoints para Update, Detail e Delete de reviews.
-api/v1/actors/ - Endpoints para Create e list de atores.
-api/v1/actors/id/ - Endpoints para Update, Detail e Delete de atores.
-api/v1/movies/ - Endpoints para Create e list de filmes.
-api/v1/movies/id/ - Endpoints para Update, Detail e Delete de filmes.
+api/v1/genres/ - Endpoints para Create e list de genres.<br>
+api/v1/genres/id/ - Endpoints para Update, Detail e Delete de genres.<br>
+api/v1/reviews/ - Endpoints para Create e list de reviews.<br>
+api/v1/reviews/id/ - Endpoints para Update, Detail e Delete de reviews.<br>
+api/v1/actors/ - Endpoints para Create e list de atores.<br>
+api/v1/actors/id/ - Endpoints para Update, Detail e Delete de atores.<br>
+api/v1/movies/ - Endpoints para Create e list de filmes.<br>
+api/v1/movies/id/ - Endpoints para Update, Detail e Delete de filmes.<br>
