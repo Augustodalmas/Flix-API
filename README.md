@@ -16,7 +16,6 @@ JSON: Formato de intercâmbio de dados leve e fácil de usar para comunicação 
 
 Estrutura do Projeto 🏗️<br>
 O projeto possui duas principais views:<br>
-
 genres_create_list:<br>
 GET: Retorna uma lista de todos os gêneros.<br>
 POST: Cria um novo gênero com base nos dados fornecidos.<br><br>
@@ -30,7 +29,6 @@ Como Utilizar 🚀<br>
 Clone o Repositório:<br>
 ```git clone https://github.com/seu-usuario/django-genres-api.git```
 
-Instale as Dependências:<br>
 Certifique-se de ter o Python e Django instalados. Em seguida, instale as dependências:<br>
 ```pip install -r requirements.txt```
 
