@@ -18,7 +18,6 @@ Estrutura do Projeto 🏗️<br>
 O projeto possui duas principais views:<br>
 
 genres_create_list:<br>
-
 GET: Retorna uma lista de todos os gêneros.<br>
 POST: Cria um novo gênero com base nos dados fornecidos.<br><br>
 
