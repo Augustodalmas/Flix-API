@@ -40,7 +40,7 @@ SQLite: Banco de dados utilizado para armazenamento de dados.
 🚀 Como Executar o Projeto Clone o repositório:
 git clone https://github.com/Augustodalmas/Flix-API.git
 
-Navegue até o diretório do projeto:
+Navegue até o diretório do projeto:<br>
 cd seu-repositorio
 
 Crie e ative um ambiente virtual:
