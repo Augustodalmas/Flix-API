@@ -59,11 +59,11 @@ Inicie o servidor de desenvolvimento:<br>
 🔗Endpoints<br>
 A API possui os seguintes endpoints principais:<br>
 
-genres/ - Endpoints para Create e list de genres.<br>
-genres/id/ - Endpoints para Update, Detail e Delete de genres.<br>
-reviews/ - Endpoints para Create e list de reviews.<br>
-reviews/id/ - Endpoints para Update, Detail e Delete de reviews.<br>
-actors/ - Endpoints para Create e list de atores.<br>
-actors/id/ - Endpoints para Update, Detail e Delete de atores.<br>
-movies/ - Endpoints para Create e list de filmes.<br>
-movies/id/ - Endpoints para Update, Detail e Delete de filmes.<br>
+api/v1/genres/ - Endpoints para Create e list de genres.<br>
+api/v1/genres/id/ - Endpoints para Update, Detail e Delete de genres.<br>
+api/v1/reviews/ - Endpoints para Create e list de reviews.<br>
+api/v1/reviews/id/ - Endpoints para Update, Detail e Delete de reviews.<br>
+api/v1/actors/ - Endpoints para Create e list de atores.<br>
+api/v1/actors/id/ - Endpoints para Update, Detail e Delete de atores.<br>
+api/v1/movies/ - Endpoints para Create e list de filmes.<br>
+api/v1/movies/id/ - Endpoints para Update, Detail e Delete de filmes.<br>
