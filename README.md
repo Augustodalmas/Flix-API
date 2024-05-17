@@ -1,4 +1,4 @@
-🎬API de Filmes com Django🎥
+# 🎬API de Filmes com Django🎥
 
 Este repositório contém uma API de gerenciamento de filmes desenvolvida com Django.
 A API permite realizar operações CRUD (Create, Read, Update, Delete) para diversas entidades relacionadas a filmes, incluindo gêneros, reviews, atores e os próprios filmes.
@@ -47,7 +47,7 @@ Crie e ative um ambiente virtual:
 python -m venv venv
 
 source venv/bin/activate
-# No Windows
+No Windows
 venv\Scripts\activate
 
 Instale as dependências:
