@@ -1,9 +1,15 @@
-from django.http import JsonResponse
+#from django.http import JsonResponse
+#from django.views.decorators.csrf import csrf_exempt
+#import json
+#from django.shortcuts import get_object_or_404
 from genres.models import Genres
-from django.views.decorators.csrf import csrf_exempt
-import json
-from django.shortcuts import get_object_or_404
+from rest_framework import generics
+from genres.serializers import genreSerializer
 
+class genresCreateListView(generics.ListCreateAPIView):
+    queryset = Genres.objects.all()
+    serializer_class = genreSerializer
+"""
 @csrf_exempt
 def genres_create_list(request):
     if request.method == "GET":
@@ -15,7 +21,13 @@ def genres_create_list(request):
         new_genre = Genres(name=data['name'])
         new_genre.save()
         return JsonResponse({'id':new_genre.id, 'name':new_genre.name}, status=201,)
-    
+""" 
+
+class genresRetrieveUpdateDeleteView(generics.RetrieveUpdateDestroyAPIView):
+    queryset = Genres.objects.all()
+    serializer_class = genreSerializer
+
+"""
 @csrf_exempt
 def genre_detail(request, pk):
     genre = get_object_or_404(Genres, pk=pk)
@@ -38,3 +50,4 @@ def genre_detail(request, pk):
             {'message':'Gênero deletado com sucesso!'},
             status=204,
         )
+"""
