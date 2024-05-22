@@ -20,30 +20,32 @@ class movieSerializer(serializers.Serializer):
 
 #Serializer de forma automatica, dessa forma só precisamos do nosso model principal;
 class movieModelSerializer(serializers.ModelSerializer):
-    ratio = serializers.SerializerMethodField(read_only=True)
+    rate = serializers.SerializerMethodField(read_only=True)
 
     class Meta():
         model = Movie
         fields = '__all__'
 
-    def get_ratio(self, obj):
+    def get_rate(self, obj):
         #Método mais complexo
         reviews = obj.reviews.all()
         """
         if reviews:
-            sum_ratio = 0
+            sum_rate = 0
             for review in reviews:
-                sum_ratio += review.stars
+                sum_rate += review.stars
             reviewCount = obj.reviews.count()
-            return round(sum_ratio / reviewCount, 1)
+            return round(sum_rate / reviewCount, 1)
         return None
         """
 
         #Método Prático
-        ratio = obj.reviews.aggregate(Avg('stars'))['stars__avg']
+        rate = obj.reviews.aggregate(Avg('stars'))['stars__avg']
         if reviews:
-            return round(ratio, 2)
+            return round(rate, 2)
         return None
+    
+    
     def validate_releaseDate(self, value):
         if value.year < 1990:
             raise serializers.ValidationError("O ano de lançamento é menor que 1990.")
