@@ -1,8 +1,8 @@
 # Serializers
 
-Apartir da Flix-Api com Django Rest Framework, foi possivel se aprofundar no assunto Serializers.
-Serializer entra em nosso projeto com intuito de validar, calcular, estruturar e serializar os dados no formato Json.
-Temos como exemplo neste repositório formas mais braçais de realizar operações com serializer e logo em seguida uma forma mais prática.
+Apartir da Flix-Api com Django Rest Framework, foi possivel se aprofundar no assunto Serializers.<br>
+Serializer entra em nosso projeto com intuito de validar, calcular, estruturar e serializar os dados no formato Json.<br>
+Temos como exemplo neste repositório formas mais braçais de realizar operações com serializer e logo em seguida uma forma mais prática.<br>
 Ex.:
 ```
 if reviews:
