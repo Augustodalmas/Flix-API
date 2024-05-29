@@ -5,7 +5,7 @@ Nesta versão do meu projeto, implementei a autenticação para garantir que ape
 Funcionalidades</br>
 Autenticação de Usuários: Utilização de JSON Web Tokens (JWT) para autenticação segura.</br>
 Proteção das Views: Todas as operações de criação, atualização e exclusão estão restritas a usuários autenticados.</br>
-CRUD Completo: Gerenciamento completo de filmes, atores, avaliações e gêneros, acessível apenas para usuários autenticados.</br></br>
+CRUD Completo: Gerenciamento completo de filmes, atores, avaliações e gêneros, acessível apenas para usuários autenticados.</br>
 
 Tecnologias Utilizadas</br>
 Django: Framework principal utilizado para o desenvolvimento da aplicação.</br>
