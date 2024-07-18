@@ -9,13 +9,13 @@ Essa seria a forma automática de verificar as permissões:
 ```
 class globalPermissions(permissions.BasePermission):
 
-    def has_permission(self, request, view):
+    def has_permission(self, request, view):  # Função para lançar o código pronto para verificação na view.
         codename = self._get_codename(method=request.method, view=view)
         if not codename:
             return None
         return request.user.has_perm(codename)
 
-    def _get_codename(self, method, view):
+    def _get_codename(self, method, view):  # Função para pegar o código que será enviado ao has_permission.
         try:
             model_name = view.queryset.model._meta.model_name
             app_name = view.queryset.model._meta.app_label
@@ -24,7 +24,7 @@ class globalPermissions(permissions.BasePermission):
         except AttributeError:
             return None
 
-    def _get_action(self, method):
+    def _get_action(self, method):  # Função para pegar a ação do código se baseando no método da requisição.
         method_Actions = {
             "GET": 'view',
             "OPTIONS": 'view',
