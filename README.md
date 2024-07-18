@@ -3,7 +3,7 @@
 Apartir da Flix-Api com Django Rest Framework, consigo aprender um pouco mais sobre permissions do Django.<br>
 As permissions assim como o JWT é uma forma de proteger a nossa API e assim definir como cada usuário interage na mesma.<br>
 É possivel dentro do Django criar grupos para controlar, como grupo de readonly, admin entre diversas outras opções.<br>
-Dentro desse commit, foi adicionado dois métodos de adicionar permissões, 1 método mais hardcode onde seria necessário o desenvolvedor escrever a permissions.py para cada app do API assim ficando muito hardcode.
+Dentro desse commit, foi adicionado dois métodos de adicionar permissões, 1 método mais hardcode onde seria necessário o desenvolvedor escrever a permissions.py para cada app do API assim ficando muito hardcode.<br>
 Para resolver esse problema, dentro do core, foi adicionado uma permissions global, onde ela é dinâmica e se adapta a cada app e a cada model de forma automática.<br>
 Ex.:
 ```
