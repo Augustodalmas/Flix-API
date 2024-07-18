@@ -1,8 +1,10 @@
-# 🔍 Serializers 🔍
+# 🔍 Permissions 🔍
 
-Apartir da Flix-Api com Django Rest Framework, foi possivel se aprofundar no assunto Serializers.<br>
-Serializer entra em nosso projeto com intuito de validar, calcular, estruturar e serializar os dados no formato Json.<br>
-Temos como exemplo neste repositório formas mais braçais de realizar operações com serializer e logo em seguida uma forma mais prática.<br>
+Apartir da Flix-Api com Django Rest Framework, consigo aprender um pouco mais sobre permissions do Django.<br>
+As permissions assim como o JWT é uma forma de proteger a nossa API e assim definir como cada usuário interage na mesma.<br>
+É possivel dentro do Django criar grupos para controlar, como grupo de readonly, admin entre diversas outras opções.<br>
+Dentro desse commit, foi adicionado dois métodos de adicionar permissões, 1 método mais hardcode onde seria necessário o desenvolvedor escrever a permissions.py para cada app do API assim ficando muito hardcode.
+Para resolver esse problema, dentro do core, foi adicionado uma permissions global, onde ela é dinâmica e se adapta a cada app e a cada model de forma automática.<br>
 Ex.:
 ```
 if reviews:
