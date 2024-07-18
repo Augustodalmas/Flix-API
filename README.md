@@ -1,4 +1,4 @@
-# 🔍 Permissions 🔍
+# 🗝️ Permissions 🗝️
 
 Apartir da Flix-Api com Django Rest Framework, consigo aprender um pouco mais sobre permissions do Django.<br>
 As permissions assim como o JWT é uma forma de proteger a nossa API e assim definir como cada usuário interage na mesma.<br>
